@@ -15,7 +15,10 @@ public class Demo2 {
 		StringBuffer s2 = new StringBuffer("Praveen"); // object
 		System.out.println(s1 == s2); // false
 		System.out.println(s1.equals(s2));
-		
+//								|
+//								|
+//								-----------> It will call Object class .equals method
+		//									Object class .equals method is always meant for Reference comparison
 	}
 
 }

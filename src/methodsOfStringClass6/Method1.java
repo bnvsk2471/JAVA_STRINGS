@@ -12,7 +12,7 @@ public class Method1 {
 		
 		String s = "Dasari";
 		s= s.concat("Deva");
-		System.out.println(s);
+		System.out.println(s); 
 		
 		String s1 = "PRAV";
 		System.out.println(s1.equals("prav")); //false

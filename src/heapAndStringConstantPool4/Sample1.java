@@ -17,11 +17,11 @@ public class Sample1 {
 		System.out.println(s3 == s4);
 		// both are focusing same object so output is true
 		
-		String s5 = "You cannot"+"change me";
+		String s5 = "You cannot "+"change me";
 		System.out.println(s4 == s5);
 		
 		String s6 = "You cannot";
-		String s7 =s6+"change me";
+		String s7 =s6+" change me";
 		System.out.println(s4 == s7);
 		
 		final String s8 = "You cannot";

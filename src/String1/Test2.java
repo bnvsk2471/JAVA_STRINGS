@@ -15,7 +15,7 @@ public class Test2 {
 		
 		String s1 = new String("Praveen"); // object1
 		String s2 = new String("Praveen"); // object2
-		System.out.println(s1 == s2); // false
+		System.out.println(s1 == s2); 
 		System.out.println(s1.equals(s2));
 	}
 	
